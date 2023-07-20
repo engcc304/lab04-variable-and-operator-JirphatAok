@@ -28,8 +28,18 @@
 #include <stdio.h>
 
 int main() {
-
-    //--| YOUR CODE HERE
-
-    return 0 ;
+    	char EmployeesYourID [10] ;
+    	int Workinghours  ;
+    	float Salary  ;
+    	float money ; 
+     	printf( "EmployesYourID: " ) ;
+    	scanf( "%s" , &EmployeesYourID ) ;
+    	printf( "Workinghours: " ) ;
+    	scanf( "%d" , &Workinghours ) ;
+    	printf( "salary/hours: " ) ;
+    	scanf( "%f" , &Salary ) ;
+    	money = Salary * Workinghours ;
+    	printf( "Employees_ID : %s \nSalary/Amount hours= U$ %0.2f ", EmployeesYourID , money ) ;
+ return 0 ;
 }//end main function
+
