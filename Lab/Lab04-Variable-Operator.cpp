@@ -29,13 +29,13 @@
 
 int main() {
     	char EmployeesYourID [10] ;
-    	int Workinghours  ;
+    	float Workinghours  ;
     	float Salary  ;
     	float money ; 
      	printf( "EmployesYourID: " ) ;
     	scanf( "%s" , &EmployeesYourID ) ;
     	printf( "Workinghours: " ) ;
-    	scanf( "%d" , &Workinghours ) ;
+    	scanf( "%f" , &Workinghours ) ;
     	printf( "salary/hours: " ) ;
     	scanf( "%f" , &Salary ) ;
     	money = Salary * Workinghours ;
